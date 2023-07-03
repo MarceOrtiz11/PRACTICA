@@ -25,10 +25,18 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  background-color: rgb(53, 52, 53);
+  background-color: rgb(79, 78, 79);
   color: rgba(155, 104, 3, 0.596);
   transition: background-color 1s ease-out;
   outline: 0;
+}
+
+.nav-link:hover{
+    color: rgb(238, 226, 226);
+}
+
+.navbar-brand:hover{
+    color: rgb(229, 221, 221);
 }
 
 button{
